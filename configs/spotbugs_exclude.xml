@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SpotBugs filter file used by the dataset construction pipeline.
+  Excludes generated, vendored, and trivial style-only warnings (paper §3.3).
+-->
+<FindBugsFilter>
+  <!-- Generated source roots -->
+  <Match>
+    <Source name="~.*/(generated|generated-sources|target|build/generated)/.*"/>
+  </Match>
+
+  <!-- Vendored / third-party code -->
+  <Match>
+    <Source name="~.*/third_party/.*"/>
+  </Match>
+  <Match>
+    <Source name="~.*/vendor/.*"/>
+  </Match>
+
+  <!-- Trivial style-only categories: keep semantic warnings only -->
+  <Match>
+    <Bug category="STYLE"/>
+  </Match>
+  <Match>
+    <Bug category="I18N"/>
+  </Match>
+</FindBugsFilter>

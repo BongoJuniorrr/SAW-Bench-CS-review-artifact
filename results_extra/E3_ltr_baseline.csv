@@ -1,0 +1,2 @@
+method,recall@3,ndcg@5,non_local_recovery@3
+ltr_logistic_pairwise,0.904761904761905,0.9931139197989326,0.65625

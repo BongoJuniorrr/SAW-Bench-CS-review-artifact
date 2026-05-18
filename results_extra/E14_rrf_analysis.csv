@@ -1,0 +1,6 @@
+method,recall@3
+tp_alone,0.8918
+bm25_alone,0.4805
+rrf_tp_bm25,0.7403
+rrf_bm25_emb,0.487
+rrf_tp_bm25_emb,0.6797

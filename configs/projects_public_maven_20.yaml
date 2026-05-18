@@ -1,0 +1,122 @@
+# Public GitHub Maven Java projects for larger source-download execution.
+# Revisions are fixed Git HEAD SHAs queried from GitHub on 2026-04-28.
+spotbugs:
+  version: "4.9.8"
+  effort: "max"
+  threshold: "low"
+  exclude_filter: "configs/spotbugs_exclude.xml"
+
+defaults:
+  java_version: "17"
+  spotbugs_categories:
+    - Nullness
+    - Resource management
+    - Bad practice
+    - Correctness
+    - Dodgy code
+    - Equality/hash-code
+    - Performance
+    - Multithreaded correctness
+    - Security
+
+projects:
+  - name: commons-lang
+    repo: https://github.com/apache/commons-lang.git
+    commit: 0745c26dac9ac76086f10c302d252a71bf4a68c5
+    build: maven
+    split: train
+  - name: commons-io
+    repo: https://github.com/apache/commons-io.git
+    commit: 2ccf3b6bee9e04a7a06d7c217b11329fbd1603e0
+    build: maven
+    split: train
+  - name: jsoup
+    repo: https://github.com/jhy/jsoup.git
+    commit: ab88c1b8b69355155e9bf8d00b0713c81e054d4a
+    build: maven
+    split: test
+  - name: commons-cli
+    repo: https://github.com/apache/commons-cli.git
+    commit: 7be3807fa6fd4ad29241074f6ddeb23cfc677775
+    build: maven
+    split: train
+  - name: commons-codec
+    repo: https://github.com/apache/commons-codec.git
+    commit: 434789abd38decf069b2787696538580cfaf3359
+    build: maven
+    split: train
+  - name: commons-text
+    repo: https://github.com/apache/commons-text.git
+    commit: 2c2122c5e6d94f6b1a7a095649b29df3aec7bf2d
+    build: maven
+    split: validation
+  - name: commons-collections
+    repo: https://github.com/apache/commons-collections.git
+    commit: 3b157d054b51e9bf72bd7555fb4876e0fa003d66
+    build: maven
+    split: train
+  - name: commons-compress
+    repo: https://github.com/apache/commons-compress.git
+    commit: 426656d38254629acdec72764d4f90b95aaf4dbe
+    build: maven
+    split: train
+  - name: commons-csv
+    repo: https://github.com/apache/commons-csv.git
+    commit: b6ab627e062ed80e65bcebe299f779717fca2e8a
+    build: maven
+    split: train
+  - name: commons-configuration
+    repo: https://github.com/apache/commons-configuration.git
+    commit: 490c43e09283c70198388742171583054df9be48
+    build: maven
+    split: train
+  - name: commons-validator
+    repo: https://github.com/apache/commons-validator.git
+    commit: fe87fdbff62c46b038438ba5eb72b71ca13aa6a9
+    build: maven
+    split: validation
+  - name: commons-net
+    repo: https://github.com/apache/commons-net.git
+    commit: 3af1604b0d3b6c1c69de7352f9d2fdf4d51d99fb
+    build: maven
+    split: train
+  - name: gson
+    repo: https://github.com/google/gson.git
+    commit: 6bf8bf6cbf4d4f5f72f69262be890a5a5e28259d
+    build: maven
+    split: train
+  - name: jackson-core
+    repo: https://github.com/FasterXML/jackson-core.git
+    commit: 2d66ad3c68ca93fe4d723dcda5a14e5fbd029ee9
+    build: maven
+    split: validation
+  - name: jackson-databind
+    repo: https://github.com/FasterXML/jackson-databind.git
+    commit: 8a70dbd6071f89f84634cd68cdecbbe2ed4e5d65
+    build: maven
+    split: test
+  - name: jackson-annotations
+    repo: https://github.com/FasterXML/jackson-annotations.git
+    commit: 85366adedaa535cfdc5cb40234fb3431be10874e
+    build: maven
+    split: test
+  - name: commons-pool
+    repo: https://github.com/apache/commons-pool.git
+    commit: 85ed7947f7f6614d827f38d3f43932ad460fb842
+    build: maven
+    split: validation
+  - name: commons-dbcp
+    repo: https://github.com/apache/commons-dbcp.git
+    commit: d2877dd31a545c92b6e43a54e4f0c4e0e538f950
+    build: maven
+    split: validation
+  - name: commons-rng
+    repo: https://github.com/apache/commons-rng.git
+    commit: 86bf647f91ce1b54738bb143d989e697f5ae0dd5
+    build: maven
+    split: test
+  - name: commons-geometry
+    repo: https://github.com/apache/commons-geometry.git
+    commit: 0b9b4d7c6299e13c0f8aa653efbe4b2716c94c7c
+    build: maven
+    split: test

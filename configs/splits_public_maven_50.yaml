@@ -1,0 +1,63 @@
+# Project-disjoint splits for the 50-project public Maven execution set.
+seed: 7
+
+train:
+  - commons-configuration
+  - commons-lang
+  - commons-net
+  - commons-cli
+  - commons-codec
+  - commons-csv
+  - gson
+  - commons-beanutils
+  - commons-vfs
+  - commons-email
+  - commons-fileupload
+  - commons-imaging
+  - commons-exec
+  - httpcomponents-client
+  - httpcomponents-core
+  - maven
+  - maven-resolver
+  - shiro
+  - logging-log4j2
+  - slf4j
+  - JsonPath
+
+validation:
+  - commons-io
+  - jackson-core
+  - commons-dbcp
+  - commons-validator
+  - commons-pool
+  - commons-text
+  - maven-surefire
+  - maven-shade-plugin
+  - junit4
+  - guava
+  - truth
+  - zxing
+  - mybatis-3
+  - HikariCP
+  - feign
+
+test:
+  - commons-compress
+  - commons-collections
+  - commons-jexl
+  - lettuce-core
+  - jackson-databind
+  - jsoup
+  - jackson-annotations
+  - commons-rng
+  - commons-geometry
+  - redisson
+  - liquibase
+  - flyway
+  - pdfbox
+  - tika
+
+target_warnings:
+  train: 300
+  validation: 90
+  test: 90

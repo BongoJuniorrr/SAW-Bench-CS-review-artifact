@@ -1,0 +1,35 @@
+{
+  "split": "test",
+  "seed": 7,
+  "n_shuffles": 1000,
+  "metrics": {
+    "recall@1": {
+      "mean": 0.1434,
+      "std": 0.0192
+    },
+    "recall@3": {
+      "mean": 0.4282,
+      "std": 0.0285
+    },
+    "recall@5": {
+      "mean": 0.7133,
+      "std": 0.025
+    },
+    "mrr": {
+      "mean": 0.6301,
+      "std": 0.0346
+    },
+    "ndcg@5": {
+      "mean": 0.8274,
+      "std": 0.0102
+    },
+    "non_local_recovery@3": {
+      "mean": 0.4295,
+      "std": 0.0607
+    },
+    "avg_tokens@3": {
+      "mean": 1035.3438,
+      "std": 371.9901
+    }
+  }
+}

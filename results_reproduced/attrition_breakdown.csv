@@ -1,0 +1,6 @@
+stage,count,notes
+Configured,105,All projects in the public Java execution set
+Retained,33,Projects that produced final benchmark records
+No retained output,72,Projects with build or SpotBugs misses recorded in docs/project_errors_public_java_100.txt
+No compiled classes,68,Subset of no-retained-output projects
+SpotBugs nonzero exit,4,Subset of no-retained-output projects

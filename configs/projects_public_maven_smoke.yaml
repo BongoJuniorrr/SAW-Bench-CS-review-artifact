@@ -1,0 +1,39 @@
+# Small public GitHub project set used for local source-download execution.
+# These Maven projects avoid the current Homebrew Gradle native-platform issue
+# observed on macOS while still exercising real repository checkout, build, and
+# SpotBugs warning extraction.
+spotbugs:
+  version: "4.9.8"
+  effort: "max"
+  threshold: "low"
+  exclude_filter: "configs/spotbugs_exclude.xml"
+
+defaults:
+  java_version: "17"
+  spotbugs_categories:
+    - Nullness
+    - Resource management
+    - Bad practice
+    - Correctness
+    - Dodgy code
+    - Equality/hash-code
+    - Performance
+    - Multithreaded correctness
+    - Security
+
+projects:
+  - name: commons-lang
+    repo: https://github.com/apache/commons-lang.git
+    commit: rel/commons-lang-3.14.0
+    build: maven
+    split: train
+  - name: commons-io
+    repo: https://github.com/apache/commons-io.git
+    commit: rel/commons-io-2.15.1
+    build: maven
+    split: validation
+  - name: jsoup
+    repo: https://github.com/jhy/jsoup.git
+    commit: jsoup-1.17.2
+    build: maven
+    split: test

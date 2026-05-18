@@ -1,0 +1,26 @@
+warning_id,category,rule_id,recall@3,n_essentials,n_missed,missed_snippet_id,missed_snippet_type,missed_token_count,actual_rank,top3_types,note
+jsoup#0001,Performance,URF_UNREAD_FIELD,0.6667,3,1,s08,annotation_or_contract,3,4,warning_line|enclosing_method|callee,non_local
+jsoup#0002,Security,MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR,0.6667,3,1,s04,callee,12,4,warning_line|enclosing_method|callee,non_local
+commons-collections#0003,Equality/hash-code,EQ_COMPARETO_USE_OBJECT_EQUALS,0.6667,3,1,s03,enclosing_class,74,4,enclosing_method|warning_line|callee,non_local
+commons-collections#0004,Performance,URF_UNREAD_FIELD,0.6667,3,1,s03,enclosing_class,483,5,warning_line|enclosing_method|callee,non_local
+commons-compress#0001,Dodgy code,RV_EXCEPTION_NOT_THROWN,0.6667,3,1,s03,enclosing_class,718,5,warning_line|enclosing_method|field_or_type_declaration,non_local
+commons-compress#0004,Equality/hash-code,HE_HASHCODE_NO_EQUALS,0.6667,3,1,s05,callee,4,5,warning_line|enclosing_method|field_or_type_declaration,non_local
+commons-compress#0011,Nullness,NP_NULL_ON_SOME_PATH,0.6667,3,1,s03,enclosing_class,654,4,warning_line|enclosing_method|field_or_type_declaration,non_local
+commons-compress#0015,Security,MS_SHOULD_BE_FINAL,0.6667,3,1,s03,enclosing_class,597,4,warning_line|enclosing_method|annotation_or_contract,non_local
+commons-compress#0016,Resource management,OS_OPEN_STREAM_EXCEPTION_PATH,0.6667,3,1,s04,callee,19,5,warning_line|enclosing_method|field_or_type_declaration,non_local
+commons-compress#0017,Correctness,UWF_NULL_FIELD,0.6667,3,1,s03,enclosing_class,276,4,warning_line|enclosing_method|similar_code,non_local
+commons-compress#0021,Equality/hash-code,HE_HASHCODE_NO_EQUALS,0.6667,3,1,s05,callee,4,5,warning_line|enclosing_method|field_or_type_declaration,non_local
+commons-compress#0023,Bad practice,NM_SAME_SIMPLE_NAME_AS_SUPERCLASS,0.6667,3,1,s03,enclosing_class,91,4,enclosing_method|warning_line|callee,non_local
+jackson-databind#0002,Multithreaded correctness,STCAL_INVOKE_ON_STATIC_CALENDAR_INSTANCE,0.6667,3,1,s07,callee,11,4,enclosing_method|warning_line|field_or_type_declaration,non_local
+jackson-databind#0004,Nullness,NP_BOOLEAN_RETURN_NULL,0.6667,3,1,s03,enclosing_class,750,4,enclosing_method|warning_line|callee,non_local
+jackson-databind#0011,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,0.6667,3,1,s03,enclosing_class,23,7,warning_line|enclosing_method|callee,non_local
+jackson-databind#0012,Security,EI_EXPOSE_REP2,0.6667,3,1,s03,enclosing_class,515,5,enclosing_method|warning_line|callee,non_local
+jackson-annotations#0001,Nullness,NP_BOOLEAN_RETURN_NULL,0.6667,3,1,s03,enclosing_class,253,4,warning_line|enclosing_method|callee,non_local
+commons-jexl#0005,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,0.6667,3,1,s03,enclosing_class,631,6,warning_line|enclosing_method|callee,non_local
+lettuce-core#0005,Security,EI_EXPOSE_REP,0.6667,3,1,s07,callee,10,4,enclosing_method|warning_line|field_or_type_declaration,non_local
+lettuce-core#0012,Bad practice,CT_CONSTRUCTOR_THROW,0.6667,3,1,s03,enclosing_class,770,5,warning_line|enclosing_method|field_or_type_declaration,non_local
+lettuce-core#0013,Nullness,NP_BOOLEAN_RETURN_NULL,0.6667,3,1,s07,callee,7,4,warning_line|enclosing_method|field_or_type_declaration,non_local
+commons-bcel#0004,Performance,DM_GC,0.6667,3,1,s06,caller,9,7,warning_line|enclosing_method|field_or_type_declaration,non_local
+commons-bcel#0008,Bad practice,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,0.6667,3,1,s03,enclosing_class,608,5,warning_line|enclosing_method|callee,non_local
+commons-bcel#0009,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,0.6667,3,1,s03,enclosing_class,197,6,warning_line|enclosing_method|callee,non_local
+mybatis-spring#0001,Bad practice,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,0.6667,3,1,s07,callee,10,4,enclosing_method|warning_line|field_or_type_declaration,non_local

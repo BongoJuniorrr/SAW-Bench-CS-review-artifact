@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "saw-bench-cs"
+version = "0.1.0"
+description = "SAW-Bench-CS: A Context Selection Benchmark for Static Analysis Warning Explanation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "CC-BY-4.0"}
+authors = [{name = "Anonymous Authors"}]
+
+[tool.setuptools.packages.find]
+include = ["saw_bench_cs*"]
+exclude = ["tests*", "scripts*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

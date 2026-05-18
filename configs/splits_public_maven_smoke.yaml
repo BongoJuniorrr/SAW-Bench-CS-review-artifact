@@ -1,0 +1,16 @@
+# Project-disjoint smoke splits for public Maven project execution.
+seed: 7
+
+train:
+  - commons-lang
+
+validation:
+  - commons-io
+
+test:
+  - jsoup
+
+target_warnings:
+  train: 30
+  validation: 10
+  test: 10

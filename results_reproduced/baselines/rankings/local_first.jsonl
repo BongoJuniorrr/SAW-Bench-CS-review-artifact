@@ -1,0 +1,77 @@
+{"warning_id": "jsoup#0001", "ranking": ["s01", "s02", "s03", "s07", "s08", "s06", "s05", "s04"]}
+{"warning_id": "jsoup#0002", "ranking": ["s01", "s02", "s03", "s05", "s04"]}
+{"warning_id": "jsoup#0003", "ranking": ["s01", "s02", "s03", "s07", "s08", "s06", "s05", "s04"]}
+{"warning_id": "commons-collections#0001", "ranking": ["s01", "s02", "s03", "s08", "s09", "s06", "s10", "s04", "s05"]}
+{"warning_id": "commons-collections#0002", "ranking": ["s01", "s02", "s03", "s04", "s05", "s06"]}
+{"warning_id": "commons-collections#0003", "ranking": ["s01", "s02", "s03", "s07", "s09", "s04", "s05", "s06"]}
+{"warning_id": "commons-collections#0004", "ranking": ["s01", "s02", "s03", "s08", "s07", "s09", "s04", "s05", "s06"]}
+{"warning_id": "commons-collections#0005", "ranking": ["s01", "s02", "s03", "s04", "s08", "s06", "s07"]}
+{"warning_id": "commons-collections#0006", "ranking": ["s01", "s02", "s03", "s04", "s06"]}
+{"warning_id": "commons-collections#0007", "ranking": ["s01", "s02", "s03", "s04", "s05", "s06"]}
+{"warning_id": "commons-compress#0001", "ranking": ["s01", "s02", "s03", "s05", "s04", "s06"]}
+{"warning_id": "commons-compress#0003", "ranking": ["s01", "s02", "s03", "s04", "s07", "s05", "s06"]}
+{"warning_id": "commons-compress#0004", "ranking": ["s01", "s02", "s03", "s04", "s05", "s07", "s06"]}
+{"warning_id": "commons-compress#0007", "ranking": ["s01", "s02", "s03", "s07", "s10", "s06", "s08", "s09", "s05", "s04"]}
+{"warning_id": "commons-compress#0008", "ranking": ["s01", "s02", "s03", "s08", "s07", "s04", "s09", "s10", "s05", "s06"]}
+{"warning_id": "commons-compress#0009", "ranking": ["s01", "s02", "s03", "s05", "s04", "s06", "s07"]}
+{"warning_id": "commons-compress#0010", "ranking": ["s01", "s02", "s03", "s04", "s06", "s07"]}
+{"warning_id": "commons-compress#0011", "ranking": ["s01", "s02", "s03", "s04", "s05"]}
+{"warning_id": "commons-compress#0012", "ranking": ["s01", "s02", "s03", "s07", "s09", "s06", "s05", "s04", "s08", "s10"]}
+{"warning_id": "commons-compress#0013", "ranking": ["s01", "s02", "s03", "s04", "s06", "s07", "s05"]}
+{"warning_id": "commons-compress#0014", "ranking": ["s01", "s02", "s03", "s05", "s04", "s06"]}
+{"warning_id": "commons-compress#0015", "ranking": ["s01", "s02", "s03", "s05", "s04", "s06"]}
+{"warning_id": "commons-compress#0016", "ranking": ["s01", "s02", "s03", "s05", "s04", "s06", "s07"]}
+{"warning_id": "commons-compress#0017", "ranking": ["s01", "s02", "s03", "s05", "s04"]}
+{"warning_id": "commons-compress#0018", "ranking": ["s01", "s02", "s03", "s07", "s04", "s05", "s09", "s06", "s10"]}
+{"warning_id": "commons-compress#0019", "ranking": ["s01", "s02", "s03", "s04", "s05", "s06"]}
+{"warning_id": "commons-compress#0021", "ranking": ["s01", "s02", "s03", "s04", "s05", "s07", "s06"]}
+{"warning_id": "commons-compress#0022", "ranking": ["s01", "s02", "s03", "s04", "s05"]}
+{"warning_id": "commons-compress#0023", "ranking": ["s01", "s02", "s03", "s07", "s04", "s10", "s09", "s05", "s06"]}
+{"warning_id": "commons-compress#0024", "ranking": ["s01", "s02", "s03", "s05", "s04", "s06", "s07"]}
+{"warning_id": "jackson-databind#0001", "ranking": ["s01", "s02", "s03", "s08", "s07", "s10", "s06", "s05", "s04", "s09"]}
+{"warning_id": "jackson-databind#0002", "ranking": ["s01", "s02", "s03", "s07", "s06", "s05", "s04", "s09", "s10"]}
+{"warning_id": "jackson-databind#0003", "ranking": ["s01", "s02", "s03", "s08", "s07", "s09", "s10", "s04", "s05", "s06"]}
+{"warning_id": "jackson-databind#0004", "ranking": ["s01", "s02", "s03", "s07", "s08", "s06", "s05", "s04"]}
+{"warning_id": "jackson-databind#0005", "ranking": ["s01", "s02", "s03", "s08", "s04", "s05", "s06", "s07"]}
+{"warning_id": "jackson-databind#0006", "ranking": ["s01", "s02", "s03", "s05", "s04", "s06"]}
+{"warning_id": "jackson-databind#0007", "ranking": ["s01", "s02", "s03", "s07", "s08", "s04", "s05", "s06"]}
+{"warning_id": "jackson-databind#0008", "ranking": ["s01", "s02", "s03", "s07", "s09", "s06", "s05", "s04", "s08", "s10"]}
+{"warning_id": "jackson-databind#0009", "ranking": ["s01", "s02", "s03", "s04", "s06", "s07"]}
+{"warning_id": "jackson-databind#0010", "ranking": ["s01", "s02", "s03", "s04", "s05"]}
+{"warning_id": "jackson-databind#0011", "ranking": ["s01", "s02", "s03", "s05", "s06", "s04", "s07"]}
+{"warning_id": "jackson-databind#0012", "ranking": ["s01", "s02", "s03", "s05", "s04"]}
+{"warning_id": "jackson-databind#0013", "ranking": ["s01", "s02", "s03", "s07", "s09", "s06", "s05", "s10", "s04", "s08"]}
+{"warning_id": "jackson-annotations#0001", "ranking": ["s01", "s02", "s03", "s07", "s08", "s04", "s09", "s05", "s06"]}
+{"warning_id": "commons-jexl#0005", "ranking": ["s01", "s02", "s03", "s06", "s08", "s04", "s05", "s09"]}
+{"warning_id": "commons-jexl#0006", "ranking": ["s01", "s02", "s03", "s07", "s05", "s04", "s06", "s09", "s10"]}
+{"warning_id": "commons-jexl#0007", "ranking": ["s01", "s02", "s03", "s04", "s05", "s06"]}
+{"warning_id": "commons-jexl#0010", "ranking": ["s01", "s02", "s03", "s08", "s07", "s04", "s05", "s06"]}
+{"warning_id": "commons-jexl#0012", "ranking": ["s01", "s02", "s03", "s05", "s08", "s04", "s07"]}
+{"warning_id": "commons-jexl#0013", "ranking": ["s01", "s02", "s03", "s07", "s05", "s04", "s06", "s09", "s10"]}
+{"warning_id": "commons-jexl#0014", "ranking": ["s01", "s02", "s03", "s04", "s05", "s06"]}
+{"warning_id": "lettuce-core#0001", "ranking": ["s01", "s02", "s03", "s05", "s04", "s08", "s06", "s07"]}
+{"warning_id": "lettuce-core#0002", "ranking": ["s01", "s02", "s03", "s04", "s05", "s06", "s07"]}
+{"warning_id": "lettuce-core#0003", "ranking": ["s01", "s02", "s03", "s04", "s05", "s06", "s07"]}
+{"warning_id": "lettuce-core#0004", "ranking": ["s01", "s02", "s03", "s08", "s10", "s07", "s06", "s05", "s04", "s09"]}
+{"warning_id": "lettuce-core#0005", "ranking": ["s01", "s02", "s03", "s07", "s04", "s05", "s09", "s08", "s06"]}
+{"warning_id": "lettuce-core#0006", "ranking": ["s01", "s02", "s03", "s07", "s08", "s10", "s09", "s04", "s05", "s06"]}
+{"warning_id": "lettuce-core#0007", "ranking": ["s01", "s02", "s03", "s07", "s09", "s06", "s05", "s10", "s08", "s04"]}
+{"warning_id": "lettuce-core#0008", "ranking": ["s01", "s02", "s03", "s06", "s05", "s08", "s07", "s04"]}
+{"warning_id": "lettuce-core#0009", "ranking": ["s01", "s02", "s03", "s04", "s05"]}
+{"warning_id": "lettuce-core#0010", "ranking": ["s01", "s02", "s03", "s07", "s05", "s04", "s06"]}
+{"warning_id": "lettuce-core#0011", "ranking": ["s01", "s02", "s03", "s04", "s05"]}
+{"warning_id": "lettuce-core#0012", "ranking": ["s01", "s02", "s03", "s05", "s06", "s07"]}
+{"warning_id": "lettuce-core#0013", "ranking": ["s01", "s02", "s03", "s07", "s10", "s05", "s06", "s09", "s04"]}
+{"warning_id": "lettuce-core#0015", "ranking": ["s01", "s02", "s03", "s07", "s09", "s04", "s06", "s05"]}
+{"warning_id": "lettuce-core#0016", "ranking": ["s01", "s02", "s03", "s04", "s05"]}
+{"warning_id": "lettuce-core#0017", "ranking": ["s01", "s02", "s03", "s04", "s06", "s05"]}
+{"warning_id": "lettuce-core#0018", "ranking": ["s01", "s02", "s03", "s07", "s10", "s04", "s05", "s06", "s09"]}
+{"warning_id": "commons-bcel#0001", "ranking": ["s01", "s02", "s03", "s05", "s06", "s04"]}
+{"warning_id": "commons-bcel#0002", "ranking": ["s01", "s02", "s03", "s04", "s06", "s05"]}
+{"warning_id": "commons-bcel#0003", "ranking": ["s01", "s02", "s03", "s06", "s05", "s07", "s04"]}
+{"warning_id": "commons-bcel#0004", "ranking": ["s01", "s02", "s03", "s07", "s10", "s06", "s09", "s05", "s04"]}
+{"warning_id": "commons-bcel#0005", "ranking": ["s01", "s02", "s03", "s04", "s05"]}
+{"warning_id": "commons-bcel#0006", "ranking": ["s01", "s02", "s03", "s08", "s07", "s06", "s04", "s05", "s09"]}
+{"warning_id": "commons-bcel#0008", "ranking": ["s01", "s02", "s03", "s06", "s05", "s04"]}
+{"warning_id": "commons-bcel#0009", "ranking": ["s01", "s02", "s03", "s05", "s06", "s04"]}
+{"warning_id": "mybatis-spring#0001", "ranking": ["s01", "s02", "s03", "s07", "s10", "s04", "s09", "s06", "s05"]}

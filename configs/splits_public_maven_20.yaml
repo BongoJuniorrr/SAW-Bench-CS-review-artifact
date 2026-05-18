@@ -1,0 +1,32 @@
+# Project-disjoint splits for the 20-project public Maven execution set.
+# Three projects (gson, commons-rng, commons-geometry) failed SpotBugs
+# execution and are excluded.  The remaining 17 are split ~58/20/22%.
+seed: 7
+
+train:
+  - commons-compress
+  - commons-collections
+  - commons-io
+  - commons-configuration
+  - commons-lang
+  - commons-net
+  - commons-cli
+  - commons-codec
+  - commons-csv
+
+validation:
+  - jackson-core
+  - commons-dbcp
+  - commons-validator
+  - commons-pool
+  - commons-text
+
+test:
+  - jackson-databind
+  - jsoup
+  - jackson-annotations
+
+target_warnings:
+  train: 202
+  validation: 69
+  test: 78

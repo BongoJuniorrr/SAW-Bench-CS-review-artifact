@@ -1,0 +1,39 @@
+{
+  "n_warnings": 77,
+  "n_explanations": 231,
+  "quality_mean": {
+    "local_only": 3.149,
+    "full": 3.771,
+    "selected": 3.797
+  },
+  "tokens_mean": {
+    "local_only": 1493.9,
+    "full": 2123.9,
+    "selected": 1507.1
+  },
+  "unsupported_rate": {
+    "local_only": 0.039,
+    "full": 0.013,
+    "selected": 0.0
+  },
+  "wilcoxon_vs_full": {
+    "local_only_p": 0.0,
+    "local_only_p_holm": 0.0,
+    "local_only_cliffs_delta": -0.972,
+    "selected_p": 0.2599,
+    "selected_p_holm": 0.2599,
+    "selected_cliffs_delta": 0.096
+  },
+  "non_inferiority_rate_selected_vs_full_at_0_5": 0.987,
+  "reliability": {
+    "pearson_r_per_explanation": 0.601,
+    "qwk_overall_4criterion_mean": 0.571,
+    "qwk_per_criterion": {
+      "cause": 0.377,
+      "evidence": 0.509,
+      "factuality": 0.209,
+      "conciseness": 0.165
+    },
+    "qwk_calibration_12warning": 0.0
+  }
+}

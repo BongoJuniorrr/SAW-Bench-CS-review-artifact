@@ -1,0 +1,219 @@
+warning_id,category,rule_id,snippet_id,snippet_type,is_nonlocal,in_pool
+jsoup#0001,Performance,URF_UNREAD_FIELD,s02,enclosing_method,False,True
+jsoup#0001,Performance,URF_UNREAD_FIELD,s08,annotation_or_contract,True,True
+jsoup#0001,Performance,URF_UNREAD_FIELD,s01,warning_line,False,True
+jsoup#0002,Security,MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR,s02,enclosing_method,False,True
+jsoup#0002,Security,MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR,s01,warning_line,False,True
+jsoup#0002,Security,MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR,s04,callee,True,True
+jsoup#0003,Bad practice,IT_NO_SUCH_ELEMENT,s02,enclosing_method,False,True
+jsoup#0003,Bad practice,IT_NO_SUCH_ELEMENT,s01,warning_line,False,True
+commons-collections#0001,Bad practice,SE_INNER_CLASS,s02,enclosing_method,False,True
+commons-collections#0001,Bad practice,SE_INNER_CLASS,s09,field_or_type_declaration,True,True
+commons-collections#0001,Bad practice,SE_INNER_CLASS,s01,warning_line,False,True
+commons-collections#0002,Correctness,SING_SINGLETON_IMPLEMENTS_SERIALIZABLE,s02,enclosing_method,False,True
+commons-collections#0002,Correctness,SING_SINGLETON_IMPLEMENTS_SERIALIZABLE,s01,warning_line,False,True
+commons-collections#0002,Correctness,SING_SINGLETON_IMPLEMENTS_SERIALIZABLE,s04,field_or_type_declaration,True,True
+commons-collections#0003,Equality/hash-code,EQ_COMPARETO_USE_OBJECT_EQUALS,s02,enclosing_method,False,True
+commons-collections#0003,Equality/hash-code,EQ_COMPARETO_USE_OBJECT_EQUALS,s01,warning_line,False,True
+commons-collections#0003,Equality/hash-code,EQ_COMPARETO_USE_OBJECT_EQUALS,s03,enclosing_class,True,True
+commons-collections#0004,Performance,URF_UNREAD_FIELD,s02,enclosing_method,False,True
+commons-collections#0004,Performance,URF_UNREAD_FIELD,s01,warning_line,False,True
+commons-collections#0004,Performance,URF_UNREAD_FIELD,s03,enclosing_class,True,True
+commons-collections#0005,Bad practice,CT_CONSTRUCTOR_THROW,s02,enclosing_method,False,True
+commons-collections#0005,Bad practice,CT_CONSTRUCTOR_THROW,s06,field_or_type_declaration,True,True
+commons-collections#0005,Bad practice,CT_CONSTRUCTOR_THROW,s01,warning_line,False,True
+commons-collections#0006,Security,MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR,s02,enclosing_method,False,True
+commons-collections#0006,Security,MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR,s01,warning_line,False,True
+commons-collections#0006,Security,MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR,s04,callee,True,True
+commons-collections#0007,Nullness,NP_BOOLEAN_RETURN_NULL,s02,enclosing_method,False,True
+commons-collections#0007,Nullness,NP_BOOLEAN_RETURN_NULL,s05,field_or_type_declaration,True,True
+commons-collections#0007,Nullness,NP_BOOLEAN_RETURN_NULL,s01,warning_line,False,True
+commons-compress#0001,Dodgy code,RV_EXCEPTION_NOT_THROWN,s02,enclosing_method,False,True
+commons-compress#0001,Dodgy code,RV_EXCEPTION_NOT_THROWN,s01,warning_line,False,True
+commons-compress#0001,Dodgy code,RV_EXCEPTION_NOT_THROWN,s03,enclosing_class,True,True
+commons-compress#0003,Performance,URF_UNREAD_FIELD,s02,enclosing_method,False,True
+commons-compress#0003,Performance,URF_UNREAD_FIELD,s05,field_or_type_declaration,True,True
+commons-compress#0003,Performance,URF_UNREAD_FIELD,s01,warning_line,False,True
+commons-compress#0004,Equality/hash-code,HE_HASHCODE_NO_EQUALS,s02,enclosing_method,False,True
+commons-compress#0004,Equality/hash-code,HE_HASHCODE_NO_EQUALS,s05,callee,True,True
+commons-compress#0004,Equality/hash-code,HE_HASHCODE_NO_EQUALS,s01,warning_line,False,True
+commons-compress#0007,Multithreaded correctness,AT_NONATOMIC_OPERATIONS_ON_SHARED_VARIABLE,s02,enclosing_method,False,True
+commons-compress#0007,Multithreaded correctness,AT_NONATOMIC_OPERATIONS_ON_SHARED_VARIABLE,s08,field_or_type_declaration,True,True
+commons-compress#0007,Multithreaded correctness,AT_NONATOMIC_OPERATIONS_ON_SHARED_VARIABLE,s01,warning_line,False,True
+commons-compress#0008,Security,EI_EXPOSE_REP2,s02,enclosing_method,False,True
+commons-compress#0008,Security,EI_EXPOSE_REP2,s09,field_or_type_declaration,True,True
+commons-compress#0008,Security,EI_EXPOSE_REP2,s01,warning_line,False,True
+commons-compress#0009,Performance,URF_UNREAD_FIELD,s02,enclosing_method,False,True
+commons-compress#0009,Performance,URF_UNREAD_FIELD,s06,field_or_type_declaration,True,True
+commons-compress#0009,Performance,URF_UNREAD_FIELD,s01,warning_line,False,True
+commons-compress#0010,Correctness,SING_SINGLETON_HAS_NONPRIVATE_CONSTRUCTOR,s02,enclosing_method,False,True
+commons-compress#0010,Correctness,SING_SINGLETON_HAS_NONPRIVATE_CONSTRUCTOR,s06,field_or_type_declaration,True,True
+commons-compress#0010,Correctness,SING_SINGLETON_HAS_NONPRIVATE_CONSTRUCTOR,s01,warning_line,False,True
+commons-compress#0011,Nullness,NP_NULL_ON_SOME_PATH,s02,enclosing_method,False,True
+commons-compress#0011,Nullness,NP_NULL_ON_SOME_PATH,s01,warning_line,False,True
+commons-compress#0011,Nullness,NP_NULL_ON_SOME_PATH,s03,enclosing_class,True,True
+commons-compress#0012,Multithreaded correctness,IS2_INCONSISTENT_SYNC,s02,enclosing_method,False,True
+commons-compress#0012,Multithreaded correctness,IS2_INCONSISTENT_SYNC,s01,warning_line,False,True
+commons-compress#0013,Equality/hash-code,EQ_COMPARETO_USE_OBJECT_EQUALS,s02,enclosing_method,False,True
+commons-compress#0013,Equality/hash-code,EQ_COMPARETO_USE_OBJECT_EQUALS,s05,field_or_type_declaration,True,True
+commons-compress#0013,Equality/hash-code,EQ_COMPARETO_USE_OBJECT_EQUALS,s01,warning_line,False,True
+commons-compress#0014,Multithreaded correctness,LI_LAZY_INIT_UPDATE_STATIC,s02,enclosing_method,False,True
+commons-compress#0014,Multithreaded correctness,LI_LAZY_INIT_UPDATE_STATIC,s06,field_or_type_declaration,True,True
+commons-compress#0014,Multithreaded correctness,LI_LAZY_INIT_UPDATE_STATIC,s01,warning_line,False,True
+commons-compress#0015,Security,MS_SHOULD_BE_FINAL,s02,enclosing_method,False,True
+commons-compress#0015,Security,MS_SHOULD_BE_FINAL,s01,warning_line,False,True
+commons-compress#0015,Security,MS_SHOULD_BE_FINAL,s03,enclosing_class,True,True
+commons-compress#0016,Resource management,OS_OPEN_STREAM_EXCEPTION_PATH,s02,enclosing_method,False,True
+commons-compress#0016,Resource management,OS_OPEN_STREAM_EXCEPTION_PATH,s01,warning_line,False,True
+commons-compress#0016,Resource management,OS_OPEN_STREAM_EXCEPTION_PATH,s04,callee,True,True
+commons-compress#0017,Correctness,UWF_NULL_FIELD,s02,enclosing_method,False,True
+commons-compress#0017,Correctness,UWF_NULL_FIELD,s01,warning_line,False,True
+commons-compress#0017,Correctness,UWF_NULL_FIELD,s03,enclosing_class,True,True
+commons-compress#0018,Bad practice,CT_CONSTRUCTOR_THROW,s02,enclosing_method,False,True
+commons-compress#0018,Bad practice,CT_CONSTRUCTOR_THROW,s09,field_or_type_declaration,True,True
+commons-compress#0018,Bad practice,CT_CONSTRUCTOR_THROW,s01,warning_line,False,True
+commons-compress#0019,Security,MS_FINAL_PKGPROTECT,s02,enclosing_method,False,True
+commons-compress#0019,Security,MS_FINAL_PKGPROTECT,s06,field_or_type_declaration,True,True
+commons-compress#0019,Security,MS_FINAL_PKGPROTECT,s01,warning_line,False,True
+commons-compress#0021,Equality/hash-code,HE_HASHCODE_NO_EQUALS,s02,enclosing_method,False,True
+commons-compress#0021,Equality/hash-code,HE_HASHCODE_NO_EQUALS,s05,callee,True,True
+commons-compress#0021,Equality/hash-code,HE_HASHCODE_NO_EQUALS,s01,warning_line,False,True
+commons-compress#0022,Bad practice,NM_CONFUSING,s02,enclosing_method,False,True
+commons-compress#0022,Bad practice,NM_CONFUSING,s01,warning_line,False,True
+commons-compress#0022,Bad practice,NM_CONFUSING,s04,callee,True,True
+commons-compress#0023,Bad practice,NM_SAME_SIMPLE_NAME_AS_SUPERCLASS,s02,enclosing_method,False,True
+commons-compress#0023,Bad practice,NM_SAME_SIMPLE_NAME_AS_SUPERCLASS,s01,warning_line,False,True
+commons-compress#0023,Bad practice,NM_SAME_SIMPLE_NAME_AS_SUPERCLASS,s03,enclosing_class,True,True
+commons-compress#0024,Multithreaded correctness,AT_STALE_THREAD_WRITE_OF_PRIMITIVE,s02,enclosing_method,False,True
+commons-compress#0024,Multithreaded correctness,AT_STALE_THREAD_WRITE_OF_PRIMITIVE,s01,warning_line,False,True
+jackson-databind#0001,Bad practice,THROWS_METHOD_THROWS_RUNTIMEEXCEPTION,s02,enclosing_method,False,True
+jackson-databind#0001,Bad practice,THROWS_METHOD_THROWS_RUNTIMEEXCEPTION,s09,field_or_type_declaration,True,True
+jackson-databind#0001,Bad practice,THROWS_METHOD_THROWS_RUNTIMEEXCEPTION,s01,warning_line,False,True
+jackson-databind#0002,Multithreaded correctness,STCAL_INVOKE_ON_STATIC_CALENDAR_INSTANCE,s02,enclosing_method,False,True
+jackson-databind#0002,Multithreaded correctness,STCAL_INVOKE_ON_STATIC_CALENDAR_INSTANCE,s07,callee,True,True
+jackson-databind#0002,Multithreaded correctness,STCAL_INVOKE_ON_STATIC_CALENDAR_INSTANCE,s01,warning_line,False,True
+jackson-databind#0003,Bad practice,ES_COMPARING_STRINGS_WITH_EQ,s02,enclosing_method,False,True
+jackson-databind#0003,Bad practice,ES_COMPARING_STRINGS_WITH_EQ,s09,field_or_type_declaration,True,True
+jackson-databind#0003,Bad practice,ES_COMPARING_STRINGS_WITH_EQ,s01,warning_line,False,True
+jackson-databind#0004,Nullness,NP_BOOLEAN_RETURN_NULL,s02,enclosing_method,False,True
+jackson-databind#0004,Nullness,NP_BOOLEAN_RETURN_NULL,s01,warning_line,False,True
+jackson-databind#0004,Nullness,NP_BOOLEAN_RETURN_NULL,s03,enclosing_class,True,True
+jackson-databind#0005,Correctness,IL_INFINITE_RECURSIVE_LOOP,s02,enclosing_method,False,True
+jackson-databind#0005,Correctness,IL_INFINITE_RECURSIVE_LOOP,s01,warning_line,False,True
+jackson-databind#0006,Correctness,UR_UNINIT_READ,s02,enclosing_method,False,True
+jackson-databind#0006,Correctness,UR_UNINIT_READ,s06,field_or_type_declaration,True,True
+jackson-databind#0006,Correctness,UR_UNINIT_READ,s01,warning_line,False,True
+jackson-databind#0007,Multithreaded correctness,AT_OPERATION_SEQUENCE_ON_CONCURRENT_ABSTRACTION,s02,enclosing_method,False,True
+jackson-databind#0007,Multithreaded correctness,AT_OPERATION_SEQUENCE_ON_CONCURRENT_ABSTRACTION,s01,warning_line,False,True
+jackson-databind#0008,Equality/hash-code,HE_EQUALS_NO_HASHCODE,s02,enclosing_method,False,True
+jackson-databind#0008,Equality/hash-code,HE_EQUALS_NO_HASHCODE,s08,field_or_type_declaration,True,True
+jackson-databind#0008,Equality/hash-code,HE_EQUALS_NO_HASHCODE,s01,warning_line,False,True
+jackson-databind#0009,Performance,DM_STRING_CTOR,s02,enclosing_method,False,True
+jackson-databind#0009,Performance,DM_STRING_CTOR,s01,warning_line,False,True
+jackson-databind#0010,Correctness,SING_SINGLETON_HAS_NONPRIVATE_CONSTRUCTOR,s02,enclosing_method,False,True
+jackson-databind#0010,Correctness,SING_SINGLETON_HAS_NONPRIVATE_CONSTRUCTOR,s05,field_or_type_declaration,True,True
+jackson-databind#0010,Correctness,SING_SINGLETON_HAS_NONPRIVATE_CONSTRUCTOR,s01,warning_line,False,True
+jackson-databind#0011,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s02,enclosing_method,False,True
+jackson-databind#0011,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s01,warning_line,False,True
+jackson-databind#0011,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s03,enclosing_class,True,True
+jackson-databind#0012,Security,EI_EXPOSE_REP2,s02,enclosing_method,False,True
+jackson-databind#0012,Security,EI_EXPOSE_REP2,s01,warning_line,False,True
+jackson-databind#0012,Security,EI_EXPOSE_REP2,s03,enclosing_class,True,True
+jackson-databind#0013,Equality/hash-code,HE_EQUALS_NO_HASHCODE,s02,enclosing_method,False,True
+jackson-databind#0013,Equality/hash-code,HE_EQUALS_NO_HASHCODE,s08,field_or_type_declaration,True,True
+jackson-databind#0013,Equality/hash-code,HE_EQUALS_NO_HASHCODE,s01,warning_line,False,True
+jackson-annotations#0001,Nullness,NP_BOOLEAN_RETURN_NULL,s02,enclosing_method,False,True
+jackson-annotations#0001,Nullness,NP_BOOLEAN_RETURN_NULL,s01,warning_line,False,True
+jackson-annotations#0001,Nullness,NP_BOOLEAN_RETURN_NULL,s03,enclosing_class,True,True
+commons-jexl#0005,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s02,enclosing_method,False,True
+commons-jexl#0005,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s01,warning_line,False,True
+commons-jexl#0005,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s03,enclosing_class,True,True
+commons-jexl#0006,Multithreaded correctness,JLM_JSR166_UTILCONCURRENT_MONITORENTER,s02,enclosing_method,False,True
+commons-jexl#0006,Multithreaded correctness,JLM_JSR166_UTILCONCURRENT_MONITORENTER,s01,warning_line,False,True
+commons-jexl#0007,Nullness,NP_BOOLEAN_RETURN_NULL,s02,enclosing_method,False,True
+commons-jexl#0007,Nullness,NP_BOOLEAN_RETURN_NULL,s05,field_or_type_declaration,True,True
+commons-jexl#0007,Nullness,NP_BOOLEAN_RETURN_NULL,s01,warning_line,False,True
+commons-jexl#0010,Security,EI_EXPOSE_REP2,s02,enclosing_method,False,True
+commons-jexl#0010,Security,EI_EXPOSE_REP2,s07,field_or_type_declaration,True,True
+commons-jexl#0010,Security,EI_EXPOSE_REP2,s01,warning_line,False,True
+commons-jexl#0012,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s02,enclosing_method,False,True
+commons-jexl#0012,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s07,field_or_type_declaration,True,True
+commons-jexl#0012,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s01,warning_line,False,True
+commons-jexl#0013,Multithreaded correctness,JLM_JSR166_UTILCONCURRENT_MONITORENTER,s02,enclosing_method,False,True
+commons-jexl#0013,Multithreaded correctness,JLM_JSR166_UTILCONCURRENT_MONITORENTER,s01,warning_line,False,True
+commons-jexl#0014,Nullness,NP_BOOLEAN_RETURN_NULL,s02,enclosing_method,False,True
+commons-jexl#0014,Nullness,NP_BOOLEAN_RETURN_NULL,s01,warning_line,False,True
+commons-jexl#0014,Nullness,NP_BOOLEAN_RETURN_NULL,s03,enclosing_class,True,True
+lettuce-core#0001,Multithreaded correctness,CWO_CLOSED_WITHOUT_OPENED,s02,enclosing_method,False,True
+lettuce-core#0001,Multithreaded correctness,CWO_CLOSED_WITHOUT_OPENED,s06,field_or_type_declaration,True,True
+lettuce-core#0001,Multithreaded correctness,CWO_CLOSED_WITHOUT_OPENED,s01,warning_line,False,True
+lettuce-core#0002,Dodgy code,SKIPPED_CLASS_TOO_BIG,s02,enclosing_method,False,True
+lettuce-core#0002,Dodgy code,SKIPPED_CLASS_TOO_BIG,s01,warning_line,False,True
+lettuce-core#0003,Multithreaded correctness,AT_STALE_THREAD_WRITE_OF_PRIMITIVE,s02,enclosing_method,False,True
+lettuce-core#0003,Multithreaded correctness,AT_STALE_THREAD_WRITE_OF_PRIMITIVE,s01,warning_line,False,True
+lettuce-core#0004,Equality/hash-code,EQ_CHECK_FOR_OPERAND_NOT_COMPATIBLE_WITH_THIS,s02,enclosing_method,False,True
+lettuce-core#0004,Equality/hash-code,EQ_CHECK_FOR_OPERAND_NOT_COMPATIBLE_WITH_THIS,s09,field_or_type_declaration,True,True
+lettuce-core#0004,Equality/hash-code,EQ_CHECK_FOR_OPERAND_NOT_COMPATIBLE_WITH_THIS,s01,warning_line,False,True
+lettuce-core#0005,Security,EI_EXPOSE_REP,s02,enclosing_method,False,True
+lettuce-core#0005,Security,EI_EXPOSE_REP,s07,callee,True,True
+lettuce-core#0005,Security,EI_EXPOSE_REP,s01,warning_line,False,True
+lettuce-core#0006,Bad practice,CN_IMPLEMENTS_CLONE_BUT_NOT_CLONEABLE,s02,enclosing_method,False,True
+lettuce-core#0006,Bad practice,CN_IMPLEMENTS_CLONE_BUT_NOT_CLONEABLE,s09,field_or_type_declaration,True,True
+lettuce-core#0006,Bad practice,CN_IMPLEMENTS_CLONE_BUT_NOT_CLONEABLE,s01,warning_line,False,True
+lettuce-core#0007,Equality/hash-code,EQ_COMPARETO_USE_OBJECT_EQUALS,s02,enclosing_method,False,True
+lettuce-core#0007,Equality/hash-code,EQ_COMPARETO_USE_OBJECT_EQUALS,s08,field_or_type_declaration,True,True
+lettuce-core#0007,Equality/hash-code,EQ_COMPARETO_USE_OBJECT_EQUALS,s01,warning_line,False,True
+lettuce-core#0008,Performance,SS_SHOULD_BE_STATIC,s02,enclosing_method,False,True
+lettuce-core#0008,Performance,SS_SHOULD_BE_STATIC,s07,field_or_type_declaration,True,True
+lettuce-core#0008,Performance,SS_SHOULD_BE_STATIC,s01,warning_line,False,True
+lettuce-core#0009,Dodgy code,RV_RETURN_VALUE_IGNORED_BAD_PRACTICE,s02,enclosing_method,False,True
+lettuce-core#0009,Dodgy code,RV_RETURN_VALUE_IGNORED_BAD_PRACTICE,s01,warning_line,False,True
+lettuce-core#0009,Dodgy code,RV_RETURN_VALUE_IGNORED_BAD_PRACTICE,s04,field_or_type_declaration,True,True
+lettuce-core#0010,Performance,URF_UNREAD_FIELD,s02,enclosing_method,False,True
+lettuce-core#0010,Performance,URF_UNREAD_FIELD,s06,field_or_type_declaration,True,True
+lettuce-core#0010,Performance,URF_UNREAD_FIELD,s01,warning_line,False,True
+lettuce-core#0011,Security,MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR,s02,enclosing_method,False,True
+lettuce-core#0011,Security,MC_OVERRIDABLE_METHOD_CALL_IN_CONSTRUCTOR,s01,warning_line,False,True
+lettuce-core#0012,Bad practice,CT_CONSTRUCTOR_THROW,s02,enclosing_method,False,True
+lettuce-core#0012,Bad practice,CT_CONSTRUCTOR_THROW,s01,warning_line,False,True
+lettuce-core#0012,Bad practice,CT_CONSTRUCTOR_THROW,s03,enclosing_class,True,True
+lettuce-core#0013,Nullness,NP_BOOLEAN_RETURN_NULL,s02,enclosing_method,False,True
+lettuce-core#0013,Nullness,NP_BOOLEAN_RETURN_NULL,s07,callee,True,True
+lettuce-core#0013,Nullness,NP_BOOLEAN_RETURN_NULL,s01,warning_line,False,True
+lettuce-core#0015,Multithreaded correctness,CWO_CLOSED_WITHOUT_OPENED,s02,enclosing_method,False,True
+lettuce-core#0015,Multithreaded correctness,CWO_CLOSED_WITHOUT_OPENED,s01,warning_line,False,True
+lettuce-core#0016,Multithreaded correctness,AT_STALE_THREAD_WRITE_OF_PRIMITIVE,s02,enclosing_method,False,True
+lettuce-core#0016,Multithreaded correctness,AT_STALE_THREAD_WRITE_OF_PRIMITIVE,s01,warning_line,False,True
+lettuce-core#0017,Security,EI_EXPOSE_REP2,s02,enclosing_method,False,True
+lettuce-core#0017,Security,EI_EXPOSE_REP2,s05,field_or_type_declaration,True,True
+lettuce-core#0017,Security,EI_EXPOSE_REP2,s01,warning_line,False,True
+lettuce-core#0018,Bad practice,CN_IMPLEMENTS_CLONE_BUT_NOT_CLONEABLE,s02,enclosing_method,False,True
+lettuce-core#0018,Bad practice,CN_IMPLEMENTS_CLONE_BUT_NOT_CLONEABLE,s09,field_or_type_declaration,True,True
+lettuce-core#0018,Bad practice,CN_IMPLEMENTS_CLONE_BUT_NOT_CLONEABLE,s01,warning_line,False,True
+commons-bcel#0001,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s02,enclosing_method,False,True
+commons-bcel#0001,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s06,field_or_type_declaration,True,True
+commons-bcel#0001,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s01,warning_line,False,True
+commons-bcel#0002,Bad practice,NM_SAME_SIMPLE_NAME_AS_SUPERCLASS,s02,enclosing_method,False,True
+commons-bcel#0002,Bad practice,NM_SAME_SIMPLE_NAME_AS_SUPERCLASS,s06,field_or_type_declaration,True,True
+commons-bcel#0002,Bad practice,NM_SAME_SIMPLE_NAME_AS_SUPERCLASS,s01,warning_line,False,True
+commons-bcel#0003,Bad practice,CT_CONSTRUCTOR_THROW,s02,enclosing_method,False,True
+commons-bcel#0003,Bad practice,CT_CONSTRUCTOR_THROW,s07,field_or_type_declaration,True,True
+commons-bcel#0003,Bad practice,CT_CONSTRUCTOR_THROW,s01,warning_line,False,True
+commons-bcel#0004,Performance,DM_GC,s02,enclosing_method,False,True
+commons-bcel#0004,Performance,DM_GC,s06,caller,True,True
+commons-bcel#0004,Performance,DM_GC,s01,warning_line,False,True
+commons-bcel#0005,Security,MS_MUTABLE_ARRAY,s02,enclosing_method,False,True
+commons-bcel#0005,Security,MS_MUTABLE_ARRAY,s01,warning_line,False,True
+commons-bcel#0005,Security,MS_MUTABLE_ARRAY,s04,field_or_type_declaration,True,True
+commons-bcel#0006,Security,EI_EXPOSE_REP,s02,enclosing_method,False,True
+commons-bcel#0006,Security,EI_EXPOSE_REP,s09,field_or_type_declaration,True,True
+commons-bcel#0006,Security,EI_EXPOSE_REP,s01,warning_line,False,True
+commons-bcel#0008,Bad practice,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,s02,enclosing_method,False,True
+commons-bcel#0008,Bad practice,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,s01,warning_line,False,True
+commons-bcel#0008,Bad practice,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,s03,enclosing_class,True,True
+commons-bcel#0009,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s02,enclosing_method,False,True
+commons-bcel#0009,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s01,warning_line,False,True
+commons-bcel#0009,Performance,SIC_INNER_SHOULD_BE_STATIC_ANON,s03,enclosing_class,True,True
+mybatis-spring#0001,Bad practice,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,s02,enclosing_method,False,True
+mybatis-spring#0001,Bad practice,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,s07,callee,True,True
+mybatis-spring#0001,Bad practice,THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION,s01,warning_line,False,True

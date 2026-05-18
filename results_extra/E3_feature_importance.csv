@@ -1,0 +1,17 @@
+feature,coefficient
+warning_line,1.87314
+enclosing_method,2.23804
+enclosing_class,0.27525
+caller,-2.18687
+callee,-0.57422
+field_or_type_declaration,0.61736
+annotation_or_contract,-0.06177
+test,-2.53819
+configuration,0.0
+similar_code,-1.27231
+history_or_diff,0.0
+bm25_score,0.88997
+emb_cosine,0.23898
+dist_norm,0.18769
+log_tokens,-1.68146
+is_local,2.90705

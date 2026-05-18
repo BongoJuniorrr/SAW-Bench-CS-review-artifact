@@ -1,0 +1,13 @@
+warning_id,annotator,round,snippet_id,label,rationale
+cal_001,annotator_A,calibration,s001,essential,"Null check on return value is the direct cause of the warning"
+cal_001,annotator_B,calibration,s001,essential,"Return value may be null; this snippet shows why"
+cal_001,annotator_A,calibration,s002,helpful,
+cal_001,annotator_B,calibration,s002,helpful,
+cal_001,annotator_A,calibration,s003,irrelevant,
+cal_001,annotator_B,calibration,s003,irrelevant,
+cal_002,annotator_A,calibration,s004,essential,"Stream resource is opened but never closed in this method"
+cal_002,annotator_B,calibration,s004,essential,"Unclosed stream; the warning references this allocation"
+cal_002,annotator_A,calibration,s005,irrelevant,
+cal_002,annotator_B,calibration,s005,helpful,
+cal_002,annotator_A,calibration,s006,helpful,
+cal_002,annotator_B,calibration,s006,irrelevant,

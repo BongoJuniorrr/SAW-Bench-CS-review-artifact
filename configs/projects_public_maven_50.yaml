@@ -1,0 +1,272 @@
+# Public GitHub Maven Java projects for expanded source-download execution.
+# Revisions are fixed Git HEAD SHAs queried from GitHub on 2026-04-29.
+spotbugs:
+  version: "4.9.8"
+  effort: "max"
+  threshold: "low"
+  exclude_filter: "configs/spotbugs_exclude.xml"
+
+defaults:
+  java_version: "17"
+  spotbugs_categories:
+    - Nullness
+    - Resource management
+    - Bad practice
+    - Correctness
+    - Dodgy code
+    - Equality/hash-code
+    - Performance
+    - Multithreaded correctness
+    - Security
+
+projects:
+  - name: commons-lang
+    repo: https://github.com/apache/commons-lang.git
+    commit: 0745c26dac9ac76086f10c302d252a71bf4a68c5
+    build: maven-fast
+    split: train
+  - name: commons-io
+    repo: https://github.com/apache/commons-io.git
+    commit: 2ccf3b6bee9e04a7a06d7c217b11329fbd1603e0
+    build: maven-fast
+    split: train
+  - name: jsoup
+    repo: https://github.com/jhy/jsoup.git
+    commit: ab88c1b8b69355155e9bf8d00b0713c81e054d4a
+    build: maven-fast
+    split: test
+  - name: commons-cli
+    repo: https://github.com/apache/commons-cli.git
+    commit: 7be3807fa6fd4ad29241074f6ddeb23cfc677775
+    build: maven-fast
+    split: train
+  - name: commons-codec
+    repo: https://github.com/apache/commons-codec.git
+    commit: 434789abd38decf069b2787696538580cfaf3359
+    build: maven-fast
+    split: train
+  - name: commons-text
+    repo: https://github.com/apache/commons-text.git
+    commit: 2c2122c5e6d94f6b1a7a095649b29df3aec7bf2d
+    build: maven-fast
+    split: validation
+  - name: commons-collections
+    repo: https://github.com/apache/commons-collections.git
+    commit: 3b157d054b51e9bf72bd7555fb4876e0fa003d66
+    build: maven-fast
+    split: train
+  - name: commons-compress
+    repo: https://github.com/apache/commons-compress.git
+    commit: 426656d38254629acdec72764d4f90b95aaf4dbe
+    build: maven-fast
+    split: train
+  - name: commons-csv
+    repo: https://github.com/apache/commons-csv.git
+    commit: b6ab627e062ed80e65bcebe299f779717fca2e8a
+    build: maven-fast
+    split: train
+  - name: commons-configuration
+    repo: https://github.com/apache/commons-configuration.git
+    commit: 490c43e09283c70198388742171583054df9be48
+    build: maven-fast
+    split: train
+  - name: commons-validator
+    repo: https://github.com/apache/commons-validator.git
+    commit: fe87fdbff62c46b038438ba5eb72b71ca13aa6a9
+    build: maven-fast
+    split: validation
+  - name: commons-net
+    repo: https://github.com/apache/commons-net.git
+    commit: 3af1604b0d3b6c1c69de7352f9d2fdf4d51d99fb
+    build: maven-fast
+    split: train
+  - name: gson
+    repo: https://github.com/google/gson.git
+    commit: 6bf8bf6cbf4d4f5f72f69262be890a5a5e28259d
+    build: maven-fast
+    split: train
+  - name: jackson-core
+    repo: https://github.com/FasterXML/jackson-core.git
+    commit: 2d66ad3c68ca93fe4d723dcda5a14e5fbd029ee9
+    build: maven-fast
+    split: validation
+  - name: jackson-databind
+    repo: https://github.com/FasterXML/jackson-databind.git
+    commit: 8a70dbd6071f89f84634cd68cdecbbe2ed4e5d65
+    build: maven-fast
+    split: test
+  - name: jackson-annotations
+    repo: https://github.com/FasterXML/jackson-annotations.git
+    commit: 85366adedaa535cfdc5cb40234fb3431be10874e
+    build: maven-fast
+    split: test
+  - name: commons-pool
+    repo: https://github.com/apache/commons-pool.git
+    commit: 85ed7947f7f6614d827f38d3f43932ad460fb842
+    build: maven-fast
+    split: validation
+  - name: commons-dbcp
+    repo: https://github.com/apache/commons-dbcp.git
+    commit: d2877dd31a545c92b6e43a54e4f0c4e0e538f950
+    build: maven-fast
+    split: validation
+  - name: commons-rng
+    repo: https://github.com/apache/commons-rng.git
+    commit: 86bf647f91ce1b54738bb143d989e697f5ae0dd5
+    build: maven-fast
+    split: test
+  - name: commons-geometry
+    repo: https://github.com/apache/commons-geometry.git
+    commit: 0b9b4d7c6299e13c0f8aa653efbe4b2716c94c7c
+    build: maven-fast
+    split: test
+  - name: commons-beanutils
+    repo: https://github.com/apache/commons-beanutils.git
+    commit: 31eb40f2752f3208a1e6a18d96e760e78e88693d
+    build: maven-fast
+    split: train
+  - name: commons-jexl
+    repo: https://github.com/apache/commons-jexl.git
+    commit: ac298d34e657eb6052e3d33d4922e42791d85120
+    build: maven-fast
+    split: train
+  - name: commons-vfs
+    repo: https://github.com/apache/commons-vfs.git
+    commit: b1e2aaef0c54213c362207f7532ffd3014a98fe8
+    build: maven-fast
+    split: train
+  - name: commons-email
+    repo: https://github.com/apache/commons-email.git
+    commit: beb92415f6cf8e2fed525187ec7dcebe4ba996f0
+    build: maven-fast
+    split: train
+  - name: commons-fileupload
+    repo: https://github.com/apache/commons-fileupload.git
+    commit: 844aa562d36ae788d2dba44e6ec7722c58859eb8
+    build: maven-fast
+    split: train
+  - name: commons-imaging
+    repo: https://github.com/apache/commons-imaging.git
+    commit: 10cb083e09b17dbedd464d3250bc686bbd9607c8
+    build: maven-fast
+    split: train
+  - name: commons-exec
+    repo: https://github.com/apache/commons-exec.git
+    commit: 2a987232a8d89d9570d4bb43a088fb81deeca314
+    build: maven-fast
+    split: train
+  - name: httpcomponents-client
+    repo: https://github.com/apache/httpcomponents-client.git
+    commit: 2ee445728efa81ea3cd6003faa6a9a4cca488015
+    build: maven-fast
+    split: train
+  - name: httpcomponents-core
+    repo: https://github.com/apache/httpcomponents-core.git
+    commit: 35e7d53cc89475bb51e956f92af61ab2393e68f6
+    build: maven-fast
+    split: train
+  - name: maven
+    repo: https://github.com/apache/maven.git
+    commit: d27af1a895d7d430fc2805a4b898a0ff64a1cb75
+    build: maven-fast
+    split: train
+  - name: maven-resolver
+    repo: https://github.com/apache/maven-resolver.git
+    commit: 36df28226a5582bf3cd2bd4547312ad477014035
+    build: maven-fast
+    split: train
+  - name: maven-surefire
+    repo: https://github.com/apache/maven-surefire.git
+    commit: 98cfb3d78b4485639f12af89b88aa5f9d8aef615
+    build: maven-fast
+    split: validation
+  - name: maven-shade-plugin
+    repo: https://github.com/apache/maven-shade-plugin.git
+    commit: c52adda94198bd88a19fe9eae509fc5d4801f801
+    build: maven-fast
+    split: validation
+  - name: junit4
+    repo: https://github.com/junit-team/junit4.git
+    commit: 300468b1efd48d76fac2f7bd6d576846dcbbf5ed
+    build: maven-fast
+    split: validation
+  - name: guava
+    repo: https://github.com/google/guava.git
+    commit: 85512b085cbfb86bab7efcf2713fb5403551020f
+    build: maven-fast
+    split: validation
+  - name: truth
+    repo: https://github.com/google/truth.git
+    commit: eb7c034e25547f872fce7313f0f64dd48e1448c3
+    build: maven-fast
+    split: validation
+  - name: zxing
+    repo: https://github.com/zxing/zxing.git
+    commit: bf77cd238d849a5602958e687cae56e6876de0c9
+    build: maven-fast
+    split: validation
+  - name: mybatis-3
+    repo: https://github.com/mybatis/mybatis-3.git
+    commit: 5814ce2e4231eb51ea62355000aa5a51c155895d
+    build: maven-fast
+    split: validation
+  - name: HikariCP
+    repo: https://github.com/brettwooldridge/HikariCP.git
+    commit: bba167f0a28905e8e63083cd7b5cbf479263271a
+    build: maven-fast
+    split: validation
+  - name: feign
+    repo: https://github.com/OpenFeign/feign.git
+    commit: 7b8e90d6c2f0eabcc66d19e38bc75a7228f399c5
+    build: maven-fast
+    split: validation
+  - name: lettuce-core
+    repo: https://github.com/redis/lettuce.git
+    commit: 40f09234f15eb60ac45f84ecbe6147fd2d616472
+    build: maven-fast
+    split: validation
+  - name: redisson
+    repo: https://github.com/redisson/redisson.git
+    commit: c6e72cafa5c9efee27494003e45d7820b65f37de
+    build: maven-fast
+    split: test
+  - name: liquibase
+    repo: https://github.com/liquibase/liquibase.git
+    commit: ff05483bcb450d0148bb7872ebd618cd6fcb7401
+    build: maven-fast
+    split: test
+  - name: flyway
+    repo: https://github.com/flyway/flyway.git
+    commit: 7c3ea883c0b78fd0aff1c69275cf3c0945eb6017
+    build: maven-fast
+    split: test
+  - name: pdfbox
+    repo: https://github.com/apache/pdfbox.git
+    commit: aba136447b22287e875496abbad3a14b5005459f
+    build: maven-fast
+    split: test
+  - name: tika
+    repo: https://github.com/apache/tika.git
+    commit: 6b538166612ef83aaefd838349bf8c59713faf40
+    build: maven-fast
+    split: test
+  - name: shiro
+    repo: https://github.com/apache/shiro.git
+    commit: 4b2cd7dded4ca99d6a4a368b7ce5d4568b1a285b
+    build: maven-fast
+    split: test
+  - name: logging-log4j2
+    repo: https://github.com/apache/logging-log4j2.git
+    commit: 76c8bef88a5af15b09420445143e652f4696cab7
+    build: maven-fast
+    split: test
+  - name: slf4j
+    repo: https://github.com/qos-ch/slf4j.git
+    commit: d2073bece8310017914e1ff65d7107b2d4869c7d
+    build: maven-fast
+    split: test
+  - name: JsonPath
+    repo: https://github.com/json-path/JsonPath.git
+    commit: 62a4c9f0f65ba3f625aa0867d64c528ba72d09ec
+    build: maven-fast
+    split: test

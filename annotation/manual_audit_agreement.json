@@ -1,0 +1,68 @@
+{
+  "description": "Independent annotation-pass audit; not used to construct data/saw_bench_cs.jsonl.",
+  "data": "data/saw_bench_cs.jsonl",
+  "left": {
+    "name": "artifact_labeler_A",
+    "path": "annotation/artifact_labeler_A_complete_pass.jsonl",
+    "label_distribution": {
+      "essential": 889,
+      "helpful": 1985,
+      "irrelevant": 225
+    }
+  },
+  "right": {
+    "name": "artifact_labeler_B",
+    "path": "annotation/artifact_labeler_B_pass.jsonl",
+    "label_distribution": {
+      "essential": 968,
+      "helpful": 1643,
+      "irrelevant": 488
+    }
+  },
+  "total_warnings": 403,
+  "total_snippets": 3099,
+  "coverage": {
+    "left_warnings": [],
+    "right_warnings": [],
+    "left_snippets": 0,
+    "right_snippets": 0
+  },
+  "agreement": {
+    "observed_agreement": 0.6231,
+    "cohens_kappa": 0.3262,
+    "prevalence_adjusted_kappa": 0.4347,
+    "binary_useful_kappa": -0.0761,
+    "confusion_matrix": {
+      "rows": "artifact_labeler_A",
+      "cols": "artifact_labeler_B",
+      "labels": [
+        "essential",
+        "helpful",
+        "irrelevant"
+      ],
+      "matrix": [
+        [
+          690,
+          199,
+          0
+        ],
+        [
+          278,
+          1230,
+          477
+        ],
+        [
+          0,
+          214,
+          11
+        ]
+      ]
+    }
+  },
+  "useful_snippet_counts": {
+    "artifact_labeler_A": 2874,
+    "artifact_labeler_B": 2611
+  },
+  "interpretation": "This audit shows whether an external pass supports the benchmark labels. Low agreement should be treated as construct-validity evidence, not as a reason to silently merge labels.",
+  "generated_by": "scripts/compare_annotation_passes.py"
+}

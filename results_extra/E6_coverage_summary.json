@@ -1,0 +1,8 @@
+{
+  "total_essential": 218,
+  "upstream_misses": 0,
+  "upstream_miss_rate": 0.0,
+  "total_nonlocal_essential": 64,
+  "nonlocal_upstream_misses": 0,
+  "nonlocal_upstream_miss_rate": 0.0
+}

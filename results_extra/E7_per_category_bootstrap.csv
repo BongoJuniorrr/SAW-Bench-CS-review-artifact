@@ -1,0 +1,37 @@
+category,n_warnings,method,recall@3_mean,nonlocal_r3_mean,nonlocal_r3_ci_lo,nonlocal_r3_ci_hi,n_with_nonlocal_essential
+Bad practice,15,bm25,0.3778,0.3571,0.1429,0.6429,14
+Bad practice,15,embedding,0.3889,0.4286,0.2143,0.7143,14
+Bad practice,15,local_first,0.7556,0.2143,0.0,0.4286,14
+Bad practice,15,type_priority,0.9111,0.7143,0.4286,0.9286,14
+Correctness,6,bm25,0.5556,0.6,0.2,1.0,5
+Correctness,6,embedding,0.6111,0.4,0.0,0.8,5
+Correctness,6,local_first,0.7778,0.2,0.0,0.6,5
+Correctness,6,type_priority,0.9444,0.8,0.4,1.0,5
+Dodgy code,3,bm25,0.5,0.5,0.0,1.0,2
+Dodgy code,3,embedding,0.4444,0.5,0.0,1.0,2
+Dodgy code,3,local_first,0.8889,0.5,0.0,1.0,2
+Dodgy code,3,type_priority,0.8889,0.5,0.0,1.0,2
+Equality/hash-code,8,bm25,0.3333,0.125,0.0,0.375,8
+Equality/hash-code,8,embedding,0.375,0.125,0.0,0.375,8
+Equality/hash-code,8,local_first,0.7083,0.125,0.0,0.375,8
+Equality/hash-code,8,type_priority,0.875,0.625,0.25,0.875,8
+Multithreaded correctness,12,bm25,0.4861,0.25,0.0,0.75,4
+Multithreaded correctness,12,embedding,0.5417,0.25,0.0,0.75,4
+Multithreaded correctness,12,local_first,0.8889,0.0,0.0,0.0,4
+Multithreaded correctness,12,type_priority,0.9722,0.75,0.25,1.0,4
+Nullness,7,bm25,0.5714,0.5714,0.1429,0.8571,7
+Nullness,7,embedding,0.6667,0.5714,0.2857,0.8571,7
+Nullness,7,local_first,0.8571,0.5714,0.1429,0.8571,7
+Nullness,7,type_priority,0.8095,0.4286,0.0,0.8571,7
+Performance,13,bm25,0.6026,0.4167,0.1667,0.75,12
+Performance,13,embedding,0.4487,0.4167,0.1667,0.6667,12
+Performance,13,local_first,0.7949,0.3333,0.0833,0.5833,12
+Performance,13,type_priority,0.8462,0.5,0.1667,0.75,12
+Resource management,1,bm25,0.3333,0.0,nan,nan,1
+Resource management,1,embedding,0.6667,0.0,nan,nan,1
+Resource management,1,local_first,0.6667,0.0,nan,nan,1
+Resource management,1,type_priority,0.6667,0.0,nan,nan,1
+Security,12,bm25,0.4861,0.2727,0.0909,0.5455,11
+Security,12,embedding,0.5139,0.3636,0.0909,0.6364,11
+Security,12,local_first,0.75,0.1818,0.0,0.4545,11
+Security,12,type_priority,0.8889,0.6364,0.3636,0.9091,11

@@ -1,0 +1,49 @@
+{
+  "description": "Agreement recomputed from annotation/annotator_passes.jsonl.",
+  "annotation_protocol": "Two released A/B artifact-labeling passes per warning; the merged labels make the benchmark artifact self-contained and auditable.",
+  "main_labeling": {
+    "total_warnings_labeled": 403,
+    "total_snippets_labeled": 3099,
+    "overall_cohens_kappa": 0.3262,
+    "prevalence_adjusted_kappa": 0.4347,
+    "confusion_matrix": {
+      "rows_annotator_A": [
+        "essential",
+        "helpful",
+        "irrelevant"
+      ],
+      "cols_annotator_B": [
+        "essential",
+        "helpful",
+        "irrelevant"
+      ],
+      "matrix": [
+        [
+          690,
+          199,
+          0
+        ],
+        [
+          278,
+          1230,
+          477
+        ],
+        [
+          0,
+          214,
+          11
+        ]
+      ]
+    }
+  },
+  "label_distribution": {
+    "essential": 1142,
+    "helpful": 1946,
+    "irrelevant": 11
+  },
+  "quality_checks": {
+    "essential_labels_with_rationale": "1142/1142",
+    "records_with_useful_context": 403
+  },
+  "generated_by": "scripts/compute_annotation_agreement.py"
+}
